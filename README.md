@@ -22,5 +22,5 @@ Options:
 
 ## install
 ```bash:
-pip install dood
+pip install git+https://github.com/cumulus13/dood
 ```
