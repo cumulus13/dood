@@ -2,6 +2,7 @@ import io
 from setuptools import setup, find_packages
 import shutil
 import os
+import sys
 
 NAME = "dood"
 
