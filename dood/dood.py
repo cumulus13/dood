@@ -121,7 +121,7 @@ class Dood:
                     cookies += f'{i}={sess_cookies.get(i)}; '
                 header = ''
                 for b in self.SESS.headers:
-                    header += f'{i}="{self.SESS.headers.get(i)}"&'
+                    header += f'{i}="{self.SESS.headers.get(b)}"&'
                 from idm import IDMan
                 d = IDMan()                    
                 d.download(url_download, download_path, saveas, url, cookie = cookies, postData = header)
